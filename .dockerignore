@@ -1,0 +1,13 @@
+# Exclude non-audio files from Docker build context
+MUSIC 150 FINAL/*.mov
+MUSIC 150 FINAL/*.MP4
+MUSIC 150 FINAL/*.mp4
+MUSIC 150 FINAL/*.MOV
+MUSIC 150 FINAL/*.docx
+
+# General
+.DS_Store
+*.pyc
+__pycache__/
+.git/
+*.pdf

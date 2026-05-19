@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUS 150 Final Exam Quiz</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>MUS 150 / THEA 150</h1>
+    <p class="subtitle">Final Exam Practice Quiz &mdash; Prof. Sheppard, Spring 2026</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="part1">Part I: Listening ID</button>
+    <button class="tab-btn" data-tab="part2">Part II: Short Answer ID</button>
+    <button class="tab-btn" data-tab="songlist">Song List</button>
+  </nav>
+
+  <!-- ── PART I: LISTENING ─────────────────────────────────────────────── -->
+  <section id="tab-part1" class="tab-content active">
+    <div class="section-header">
+      <h2>Part I &mdash; Listening Identification</h2>
+      <p class="instructions">
+        Each excerpt is worth <strong>8 points</strong>. Identify the composer, lyricist, show, date, and
+        characters/context. Then describe the striking musical features and the significance of the excerpt.
+        Full sentences are not necessary &mdash; complete answers are.
+      </p>
+    </div>
+
+    <div class="controls">
+      <button id="btn-random-song" class="btn-primary">&#9654; Random Song</button>
+      <select id="song-select">
+        <option value="">— Pick a specific song —</option>
+      </select>
+    </div>
+
+    <div id="player-area" class="hidden">
+      <div class="song-card">
+        <div class="song-badge" id="song-badge">Audio</div>
+        <h3 id="current-song-title">Song Title</h3>
+        <audio id="audio-player" controls preload="none">
+          <source id="audio-source" src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <form id="listening-form">
+        <div class="form-grid">
+          <div class="field-group">
+            <label for="f-composer">Composer</label>
+            <input type="text" id="f-composer" name="composer" placeholder="e.g. Leonard Bernstein">
+          </div>
+          <div class="field-group">
+            <label for="f-lyricist">Lyricist</label>
+            <input type="text" id="f-lyricist" name="lyricist" placeholder="e.g. Stephen Sondheim">
+          </div>
+          <div class="field-group">
+            <label for="f-show">Show Title</label>
+            <input type="text" id="f-show" name="show" placeholder="e.g. West Side Story">
+          </div>
+          <div class="field-group">
+            <label for="f-date">Approximate Date</label>
+            <input type="text" id="f-date" name="date" placeholder="e.g. 1957">
+          </div>
+        </div>
+        <div class="field-group full-width">
+          <label for="f-context">Dramatic Context / Characters in this excerpt</label>
+          <textarea id="f-context" name="context" rows="3" placeholder="Who is singing? What is happening dramatically? What is the scene?"></textarea>
+        </div>
+        <div class="field-group full-width">
+          <label for="f-musical-features">Striking Musical Features</label>
+          <textarea id="f-musical-features" name="musical_features" rows="3" placeholder="Form, type of music, style, word painting, quotation, poetic details, etc."></textarea>
+        </div>
+        <div class="field-group full-width">
+          <label for="f-significance">Significance of this excerpt</label>
+          <textarea id="f-significance" name="significance" rows="3" placeholder="Why does this song/scene matter? What does it represent in musical theater history?"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit" id="btn-submit-listening">
+          Submit &amp; Grade (8 pts)
+        </button>
+      </form>
+
+      <div id="result-listening" class="result-panel hidden">
+        <div class="score-row">
+          <span class="score-label">Score:</span>
+          <span class="score-value" id="score-listening">—</span>
+          <span class="score-max">/ 8</span>
+        </div>
+        <div class="breakdown" id="breakdown-listening"></div>
+        <div class="feedback" id="feedback-listening"></div>
+        <details class="answer-reveal">
+          <summary>Show Correct Answers</summary>
+          <div id="correct-answers-listening" class="correct-answers"></div>
+        </details>
+        <button class="btn-secondary btn-next" id="btn-next-listening">Next Song &#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PART II: SHORT ANSWER ─────────────────────────────────────────── -->
+  <section id="tab-part2" class="tab-content hidden">
+    <div class="section-header">
+      <h2>Part II &mdash; Short Answer Identifications</h2>
+      <p class="instructions">
+        Each identification is worth <strong>5 points</strong>. Identify, define, describe, and/or explain
+        the term. Cite examples, names, and dates as appropriate. Explain significance where appropriate.
+        Full sentences are not necessary &mdash; complete answers are.
+      </p>
+    </div>
+
+    <div class="controls">
+      <button id="btn-random-term" class="btn-primary">&#9654; Random Term</button>
+      <select id="term-select">
+        <option value="">— Pick a specific term —</option>
+      </select>
+    </div>
+
+    <div id="term-area" class="hidden">
+      <div class="term-card">
+        <p class="term-label">Identify / Define / Describe / Explain:</p>
+        <h2 id="current-term" class="term-display"></h2>
+      </div>
+
+      <form id="short-answer-form">
+        <div class="field-group full-width">
+          <label for="f-answer">Your Answer</label>
+          <textarea id="f-answer" name="answer" rows="6"
+            placeholder="Identify/define this term. Cite examples, names, dates. Explain significance. (Full sentences not required.)"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit" id="btn-submit-short">
+          Submit &amp; Grade (5 pts)
+        </button>
+      </form>
+
+      <div id="result-short" class="result-panel hidden">
+        <div class="score-row">
+          <span class="score-label">Score:</span>
+          <span class="score-value" id="score-short">—</span>
+          <span class="score-max">/ 5</span>
+        </div>
+        <div class="feedback" id="feedback-short"></div>
+        <details class="answer-reveal">
+          <summary>Model Answer</summary>
+          <div id="model-answer-short" class="correct-answers"></div>
+        </details>
+        <button class="btn-secondary btn-next" id="btn-next-short">Next Term &#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SONG LIST ─────────────────────────────────────────────────────── -->
+  <section id="tab-songlist" class="tab-content hidden">
+    <div class="section-header">
+      <h2>Exam Possibilities — Song List</h2>
+      <p class="instructions">All songs from the final exam possibilities sheet. Click a song to practice it in Part I.</p>
+    </div>
+    <div id="song-list-grid" class="song-grid"></div>
+  </section>
+
+  <!-- Loading overlay -->
+  <div id="loading-overlay" class="loading-overlay hidden">
+    <div class="spinner"></div>
+    <p>Grading your answer&hellip;</p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

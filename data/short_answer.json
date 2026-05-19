@@ -1,0 +1,257 @@
+[
+  {
+    "id": "gene_kelly",
+    "term": "Gene Kelly",
+    "correct_answer": "Gene Kelly (1912-1996) was a dancer, singer, actor, and choreographer who revolutionized the Hollywood film musical at MGM. He wanted dance to be seen as masculine and athletic. In films like 'Singin' in the Rain' (1952) and 'An American in Paris' (1951), he had creative control over dance sequences. He used the camera as a dance partner — physically interacting with the camera, with the crane shot at the climax of the 'Singin' in the Rain' sequence being a prime example of camera choreography. He was associated with the Freed Unit at MGM. His style incorporated jazz, ballet, and tap."
+  },
+  {
+    "id": "comden_and_green",
+    "term": "Comden and Green",
+    "correct_answer": "Betty Comden (1917-2006) and Adolph Green (1914-2002) were longtime writing partners who wrote the book and lyrics for many major film and stage musicals. They were closely associated with the Freed Unit at MGM, writing the screenplay and lyrics for 'Singin' in the Rain' (1952) and 'On the Town' (1949, also with Bernstein). They also wrote 'Bells Are Ringing,' 'Wonderful Town,' and 'Applause.' Their work is characterized by wit, urban sophistication, and affection for showbiz."
+  },
+  {
+    "id": "make_em_laugh",
+    "term": "\"Make 'Em Laugh\"",
+    "correct_answer": "\"Make 'Em Laugh\" is Donald O'Connor's solo slapstick number from 'Singin' in the Rain' (1952, Freed Unit/MGM). O'Connor performs extraordinary physical comedy — running up walls, using a dummy as a prop, pratfalls — in a bravura display. The number is very similar to 'Be a Clown' from 'The Pirate' (1948, also Freed Unit) — same musical key, same length (both 40 bars), similar lyrics and theme, leading to accusations of plagiarism. Both are about the value of comedy/clowning as an art form. It demonstrates the Freed Unit's internal recycling of musical material."
+  },
+  {
+    "id": "freed_unit",
+    "term": "The Freed Unit",
+    "correct_answer": "The Freed Unit was a production unit at MGM led by producer Arthur Freed (who also wrote lyrics, including 'Singin' in the Rain'). It produced the most celebrated Hollywood film musicals from the late 1930s through the 1950s. Productions include: The Broadway Melody (1929), Wizard of Oz (1939, associate producer), Meet Me in St. Louis (1944, Judy Garland), Easter Parade (1948, Irving Berlin), The Pirate (1948, Gene Kelly/Judy Garland), An American in Paris (1951, Gene Kelly/Gershwin), and Singin' in the Rain (1952). The unit drew on a stable of talented artists — Kelly, Garland, Astaire, Comden and Green, Minnelli — and had creative autonomy to make innovative musicals."
+  },
+  {
+    "id": "fugue_for_tinhorns",
+    "term": "\"Fugue for Tinhorns\"",
+    "correct_answer": "\"Fugue for Tinhorns\" is the opening number from Guys and Dolls (Frank Loesser, 1950). Three small-time gamblers — Nicely-Nicely Johnson, Benny Southstreet, and Rusty Charlie — each simultaneously tout different horses to bet on, creating a three-voice polyphonic texture (canon/mock fugue — not a true fugue, but uses the principle of staggered melodic entries). The music is heavily syncopated and jazz-inflected with chromatic melodies. A 'tinhorn' is a gambler who pretends to be more successful than he is. The number immediately establishes Runyonland and characterizes the gamblers through the comic use of a sophisticated musical form."
+  },
+  {
+    "id": "runyonland",
+    "term": "Runyonland",
+    "correct_answer": "Runyonland is the stylized, cartoonish world of Damon Runyon's New York Times Square in Guys and Dolls (Loesser, 1950). The characters (gamblers, showgirls, missionaries) use elevated, sophisticated vocabulary that contrasts incongruously with their rough content (e.g., 'I find her not entirely repulsive'). Musically, the style is syncopated jazz for the gamblers vs. hymn-like music for the missionaries — no ambiguity. Movement in the opening is choreographed like animation — Mickey Mousing, where characters move precisely to the music like cartoon figures. The staging deliberately undermines realism: sets never look real. Damon Runyon was the writer whose New York stories formed the basis of the show."
+  },
+  {
+    "id": "alan_menken_films",
+    "term": "List 5 film musicals with music by Alan Menken",
+    "correct_answer": "Alan Menken has composed music for many Disney film musicals. Any 5 from this list: The Little Mermaid (1989), Beauty and the Beast (1991, lyrics by Howard Ashman), Aladdin (1992, lyrics by Howard Ashman and Tim Rice), Pocahontas (1995), The Hunchback of Notre Dame (1996), Hercules (1997), Tangled (2010), Enchanted (2007), Little Shop of Horrors (1986 film). Menken won 8 Academy Awards for Best Original Score and Best Original Song. His collaboration with Howard Ashman defined the Disney Renaissance."
+  },
+  {
+    "id": "julie_taymor",
+    "term": "Julie Taymor",
+    "correct_answer": "Julie Taymor is an avant-garde theater and film director known for innovative staging that blends puppetry, masks, and world theater traditions. She directed The Lion King on Broadway (1997), becoming the first woman to win the Tony Award for Best Direction of a Musical and Best Costume Design for a Musical. Her approach to The Lion King used performers in full view of the audience operating large puppets and wearing masks — blending the visible human body with the animal character. She has also directed film (Frida, Across the Universe, The Tempest) and opera. Her theatrical vocabulary draws on Balinese, African, and Japanese performance traditions."
+  },
+  {
+    "id": "new_amsterdam_theater",
+    "term": "New Amsterdam Theater",
+    "correct_answer": "The New Amsterdam Theatre is a historic Broadway theater on 42nd Street in Times Square, built in 1903. It was home to the Ziegfeld Follies in the early 20th century. By the 1980s it had fallen into disrepair and was in ruins. In 1995-1996, the Walt Disney Company restored it as part of the 42nd Street redevelopment, and it became the home of The Lion King (directed by Julie Taymor, 1997). Disney's investment in the New Amsterdam was part of their strategy of bringing animated film musicals to Broadway. Subsequently housed Mary Poppins and Frozen."
+  },
+  {
+    "id": "tradition",
+    "term": "\"Tradition\"",
+    "correct_answer": "\"Tradition\" is the opening number of Fiddler on the Roof (Jerry Bock music, Sheldon Harnick lyrics, 1964). Tevye introduces the village of Anatevka and its inhabitants (papas, mamas, sons, daughters), explaining the traditions that hold their world in balance like a fiddler on a roof — precariously. The number establishes the show's central theme: the conflict between tradition and modernity. Choreographed by Jerome Robbins, the number introduces each social group with distinct music. The circle dance at the end is based on Hasidic Jewish dance tradition. The show was directed by Jerome Robbins."
+  },
+  {
+    "id": "tevye",
+    "term": "Tevye",
+    "correct_answer": "Tevye is the protagonist of Fiddler on the Roof (Bock/Harnick, 1964), a Jewish milkman in the fictional Russian village of Anatevka around 1905. He has five daughters and must reconcile his deep religious faith and love of tradition with the modern world threatening to upend everything (his daughters choose their own husbands, breaking with arranged marriage customs; the Russian Tsar's government will expel the Jews from their village). He speaks directly to God in comic monologues ('On the Other Hand...'), a theatrical convention that gives the audience intimacy. Originated by Zero Mostel on Broadway; Chaim Topol in the 1971 film."
+  },
+  {
+    "id": "jerome_robbins",
+    "term": "Jerome Robbins",
+    "correct_answer": "Jerome Robbins (1918-1998) was one of Broadway's most important choreographers and directors. He choreographed and co-directed (with George Abbott) West Side Story on Broadway (1957) and co-directed the 1961 film (with Robert Wise). He also directed and choreographed Fiddler on the Roof (1964). His approach made dance serve drama — every movement had emotional and narrative purpose. He developed the concept of the director-choreographer: a single artistic vision controlling both movement and staging. Other work includes Gypsy (choreographer) and A Funny Thing Happened on the Way to the Forum."
+  },
+  {
+    "id": "immigrant_lyric",
+    "term": "\"Immigrant goes to America, / Lots of hellos in America; / Nobody knows in America / Puerto Rico's in America\"",
+    "correct_answer": "This lyric is from 'America' in West Side Story (Bernstein/Sondheim, 1957). Sung by the Puerto Rican Sharks — in the stage version, the women celebrate America while the men are skeptical; in the 1957 film (with Robbins), all characters participate. The lyrics ironically catalogue both the promise and the harsh reality of immigrant life in America: the 'hellos' are false optimism vs. the reality of prejudice and poverty. Bernstein set the lyric to a 6/8 vs. 3/4 rhythmic ambiguity (the 'America' rhythm alternates between hemiola and compound meter). The lyric reflects the show's complex treatment of Puerto Rican characters and immigrant experience — simultaneously celebrating and critiquing the American dream."
+  },
+  {
+    "id": "mambo",
+    "term": "Mambo",
+    "correct_answer": "The mambo is a Latin dance and music style that originated in Cuba in the 1940s and became popular in New York's dance halls in the 1950s. In West Side Story (Bernstein/Sondheim, 1957), Leonard Bernstein incorporates the mambo into the dance at the gym sequence ('Dance at the Gym'), using it to characterize the Puerto Rican Sharks. The syncopated, energetic mambo rhythms musically identify the Sharks with their Latin cultural heritage. This was an example of Bernstein using vernacular and ethnic music styles to characterize different social groups — a kind of musical exoticism that was simultaneously authentic (the mambo really was associated with Puerto Rican New York) and theatrical."
+  },
+  {
+    "id": "let_me_entertain_you",
+    "term": "\"Let Me Entertain You\"",
+    "correct_answer": "\"Let Me Entertain You\" is the central recurring song in Gypsy (Styne/Sondheim, 1959). First introduced as an innocent children's act that June and Louise perform in vaudeville. Later in the show, when Louise (Gypsy Rose Lee) performs in burlesque, she strips to the same song — transforming an innocent showbiz number into a striptease. The irony is devastating: the same 'Let Me Entertain You' that was a cute kids' act becomes an adult number when the entertainment industry demands it. Rose's corruption of her daughters through showbiz ambition is embodied in the transformation of this single song."
+  },
+  {
+    "id": "roses_turn",
+    "term": "\"Rose's Turn\"",
+    "correct_answer": "\"Rose's Turn\" is the climactic number from Gypsy (Styne/Sondheim, 1959), sung by Rose (the stage mother) alone in an empty theater after her daughter Louise (Gypsy Rose Lee) has become a burlesque star. Rose finally performs the show that was always hers, quoting and transforming earlier songs ('Everything's Coming Up Roses,' 'Let Me Entertain You'). The music has no clear through-line — it is a fragmented, collage-like psychological breakdown. It functions as a 'mad scene' (operatic convention) and a soliloquy revealing Rose's narcissism. One of the greatest moments in musical theater. Sondheim's breakout as lyricist."
+  },
+  {
+    "id": "hal_prince",
+    "term": "Hal (Harold) Prince",
+    "correct_answer": "Harold (Hal) Prince (1928-2019) was one of Broadway's most important producers and directors. As producer: West Side Story (1957), Fiddler on the Roof (1964), Cabaret (1966). As director: Cabaret (1966), Company (1970), Follies (1971), A Little Night Music (1973), Pacific Overtures (1976), Sweeney Todd (1979), Evita (1979), Phantom of the Opera (1988). He was the central figure of the 'concept musical' — shows organized around a thematic idea rather than linear narrative — and his long collaboration with Stephen Sondheim produced some of the most artistically ambitious work on Broadway. Boris Aronson was his frequent set designer."
+  },
+  {
+    "id": "boris_aronson",
+    "term": "Boris Aronson",
+    "correct_answer": "Boris Aronson (1900-1980) was a Tony Award-winning scenic designer who collaborated with Hal Prince and Stephen Sondheim on numerous landmark productions. His major designs include Cabaret (1966, the Kit Kat Klub's mirrored set reflecting the audience back at themselves), Company (1970, a steel-and-glass modular set representing modern urban life), Follies (1971, a crumbling theatrical space), A Little Night Music (1973), and Pacific Overtures (1976). His designs were conceptually driven — the Cabaret set's mirrors are a prime example of a design that actively reinforces the show's theme (the audience is complicit in the entertainment)."
+  },
+  {
+    "id": "joel_grey",
+    "term": "Joel Grey",
+    "correct_answer": "Joel Grey (born 1932) is an actor who created the role of the Emcee in Cabaret on Broadway (1966, directed by Hal Prince) and reprised the role in the 1972 Bob Fosse film. He won the Tony Award for Best Featured Actor (1966) and the Academy Award for Best Supporting Actor (1972) for the role. His performance defined the character: the Emcee is grotesque, campy, sexually ambiguous, ultimately terrifying — a personification of the decadent entertainment industry masking Nazi horror. His signature number 'Willkommen' established him as one of Broadway's most distinctive performers. He came out as gay publicly in 2015."
+  },
+  {
+    "id": "mr_cellophane",
+    "term": "\"Mr. Cellophane\"",
+    "correct_answer": "\"Mr. Cellophane\" is Amos Hart's solo from Chicago (Kander/Ebb, 1975). Amos is Roxie Hart's ignored, invisible husband — he sings about being transparent like cellophane: 'Mr. Cellophane, shoulda been my name, Mr. Cellophane, 'cause you can look right through me, walk right by me, and never know I'm there.' The number is in a Charlie Chaplin-esque, plaintive soft-shoe style — quiet and pathetic compared to the brassy showbiz of the rest of the show. Amos is the show's one genuinely sympathetic character, and his invisibility represents those who are decent and honest getting crushed by the publicity machine."
+  },
+  {
+    "id": "bob_fosse",
+    "term": "Bob Fosse",
+    "correct_answer": "Bob Fosse (1927-1987) was a choreographer and director whose distinctive style transformed Broadway and film musicals. His choreographic signature includes: derby hats and white gloves, turned-in feet (pigeon-toed), hip isolations and 'bump and grind' movements, shoulders rolled forward, jazz hands, stylized sensuality. He directed and choreographed Chicago (1975), Pippin (1972), and the film version of Cabaret (1972, which won 8 Oscars). He also directed the semi-autobiographical film All That Jazz (1979). Fosse worked with Kander and Ebb on Chicago and won the Tony, Emmy, and Oscar (nicknamed the 'Triple Crown') in the same year (1973)."
+  },
+  {
+    "id": "michael_bennett",
+    "term": "Michael Bennett",
+    "correct_answer": "Michael Bennett (1943-1987) was a choreographer and director best known for creating A Chorus Line (1975, Pulitzer Prize and 9 Tonys). He developed the show from tape-recorded workshops with actual Broadway chorus dancers (gypsies) talking about their lives — an unprecedented collaborative creation process. He also worked on Follies (1971, choreographer) and created Dreamgirls (1981). His 'director-choreographer' approach (single artistic vision for both movement and staging) followed Jerome Robbins's model. Bennett died of AIDS-related complications in 1987."
+  },
+  {
+    "id": "concept_musical",
+    "term": "Concept Musical",
+    "correct_answer": "A concept musical is a musical in which a thematic idea, concept, or theatrical frame — rather than a linear plot — drives the structure. Associated with the collaborations of Hal Prince and Stephen Sondheim. Examples: Cabaret (1966, the cabaret-as-frame for Weimar Germany commentary), Company (1970, episodic structure around a single character's relationships), A Chorus Line (1975, the audition process as frame), Follies (1971, memory and nostalgia as structural principle). The concept often involves meta-theatrical awareness, non-linear storytelling, and a unifying visual/thematic metaphor. Contrasts with 'book musicals' that tell a story from beginning to end."
+  },
+  {
+    "id": "again_step_kick",
+    "term": "\"Again! Step, kick, kick, leap, kick, touch.\"",
+    "correct_answer": "This is the choreographic instruction shouted by Zach (the director) to the auditioning dancers at the opening of A Chorus Line (Hamlisch/Kleban, 1975). It is the first line spoken in the show, establishing immediately that the dancers are being put through a dehumanizing repetitive process. The instruction is famous because it makes the audience feel the tedium and anxiety of the audition. The line represents Michael Bennett's concept: A Chorus Line is about the lives of chorus dancers ('gypsies') who are usually invisible — and the opening plunges the audience into their experience of audition pressure."
+  },
+  {
+    "id": "godspell",
+    "term": "Godspell",
+    "correct_answer": "Godspell (1971) is an off-Broadway rock musical with book by John-Michael Tebelak and music/lyrics by Stephen Schwartz. It depicts Jesus and his disciples as a hippie commune/clown troupe performing parables from the Gospel of Matthew in Central Park. The original production was directed by Tom O'Horgan. The show is associated with the counterculture era — anti-establishment, participatory, joyful. The 1971 Broadway production was directed by Tim O'Horgan. It was influenced by The Living Theatre's confrontational and participatory theater aesthetic. Stephen Schwartz's score uses pop, vaudeville, and folk styles."
+  },
+  {
+    "id": "all_for_the_best",
+    "term": "\"All for the Best\"",
+    "correct_answer": "\"All for the Best\" is a vaudeville/soft-shoe duet from Godspell (Stephen Schwartz, 1971), performed by Jesus and Judas. Despite being performed cheerfully in a music-hall style, the lyrics outline their contrasting fates: Jesus sings about going to heaven; Judas sings about not. The irony between the light, comedic performance style and the dark content (betrayal, death) is the point — it's dramatically ironic and poignant. The number shows how Godspell uses pop theatrical forms to approach Biblical material in a contemporary, counterculture way."
+  },
+  {
+    "id": "tim_rice",
+    "term": "Tim Rice",
+    "correct_answer": "Sir Tim Rice (born 1944) is a British lyricist best known for his collaborations with Andrew Lloyd Webber. Together they wrote Jesus Christ Superstar (1971, entirely sung through, controversial portrayal of Judas), Evita (1978, about Eva Perón), and Joseph and the Amazing Technicolor Dreamcoat (originally 1968). Rice also wrote lyrics for Disney's Aladdin (1992, with Alan Menken), The Lion King (1994, with Elton John), and Blondel. Rice's lyrics are known for wit, storytelling, and their accessibility in rock opera format. His collaboration with Lloyd Webber established the template for the through-sung British rock musical."
+  },
+  {
+    "id": "tim_ohorgan",
+    "term": "Tim O'Horgan",
+    "correct_answer": "Tom O'Horgan (1924-2009) was a theatrical director associated with avant-garde and counterculture theater. He directed the original Broadway production of Hair (1968) — the first major rock musical, anti-Vietnam War, featuring nudity — as well as Godspell (1971) and the original Broadway production of Jesus Christ Superstar (1971). His staging style was confrontational, participatory, and influenced by The Living Theatre's approach to breaking the fourth wall and involving the audience. His work helped define the counterculture moment in Broadway history."
+  },
+  {
+    "id": "living_theatre",
+    "term": "The Living Theatre",
+    "correct_answer": "The Living Theatre was an avant-garde theater company founded in New York City in 1947 by Judith Malina and Julian Beck. They pioneered confrontational, participatory theater that rejected the division between performers and audience. Their shows were influenced by anarchist politics and sought to make theater a tool for social transformation. The Living Theatre directly influenced the rock musicals of the 1960s-70s, particularly Hair (1968) and Godspell (1971), which broke the fourth wall, involved audience members, and rejected conventional theatrical illusion. The company worked in Europe and the US and was frequently in conflict with authorities over their political activism."
+  },
+  {
+    "id": "jonathan_larson",
+    "term": "Jonathan Larson",
+    "correct_answer": "Jonathan Larson (1960-1996) was the composer and lyricist of Rent (1996), the defining musical of the 1990s. Rent is set in the bohemian East Village of New York, dealing with AIDS, poverty, and LGBTQ+ community, inspired by Puccini's opera La Bohème. Larson died suddenly of an aortic aneurysm the night before Rent's off-Broadway opening at The Public Theater. The show subsequently moved to Broadway and won the Pulitzer Prize for Drama and four Tony Awards. Larson's death made him a tragic figure and Rent became a tribute to his vision. He had worked on the show for years, largely unknown, before his death."
+  },
+  {
+    "id": "la_vie_boheme",
+    "term": "\"La Vie Boheme\"",
+    "correct_answer": "\"La Vie Boheme\" is a major ensemble number from Rent (Jonathan Larson, 1996). The bohemian characters gather at the Life Café and perform an ecstatic, celebratory catalog of everything they stand for: art, friends, love, their marginalized East Village community, people 'living with, living with, living with, not dying from disease' (a direct reference to AIDS). It is the show's manifesto — a declaration of the bohemian community's values in defiance of mainstream society and gentrification. The number draws on the rock musical tradition, building to a climactic ensemble celebration. It echoes the café scenes in La Bohème."
+  },
+  {
+    "id": "tango_maureen",
+    "term": "\"Tango Maureen\"",
+    "correct_answer": "\"Tango Maureen\" is a duet from Rent (Jonathan Larson, 1996) between Mark (Maureen's ex-boyfriend, straight) and Joanne (Maureen's current girlfriend, lesbian). They meet while setting up for Maureen's performance and discover they are both driven crazy by Maureen's irresistible, chaotic personality. Using the tango as metaphor — the tango represents the passionate, combative, frustrating nature of their relationships with her — they bond over their shared experience. The number is both comic and musically rich: the actual tango rhythm drives the music throughout. It exemplifies Rent's exploration of non-traditional relationships and community."
+  },
+  {
+    "id": "public_theater",
+    "term": "The Public Theater",
+    "correct_answer": "The Public Theater (officially the Joseph Papp Public Theater) is a non-profit theater in New York City's Greenwich Village, founded by Joseph Papp in 1967. It is known for developing new American plays and musicals. Most notably, A Chorus Line was developed there (1975, Michael Bennett) before moving to Broadway, and Hamilton (Lin-Manuel Miranda, 2015) premiered there before its record-breaking Broadway run. The Public is also known for free Shakespeare in the Park (Central Park). It represents the path from non-profit off-Broadway development to commercial Broadway success."
+  },
+  {
+    "id": "aquarius",
+    "term": "\"Aquarius\"",
+    "correct_answer": "\"Aquarius\" is the opening number of Hair (Galt MacDermot music, James Rado and Gerome Ragni lyrics/book, 1968). The hippie tribe announces the dawning of the Age of Aquarius — an astrological era associated with peace, love, and enlightenment. The song embodies the counterculture's utopian vision: the rock musical format itself (electric guitars, full band) IS the countercultural message. Hair was the first major rock musical to succeed on Broadway; it dealt with Vietnam War protest, drug use, interracial relationships, and featured nudity. Directed by Tom O'Horgan. Influenced by The Living Theatre."
+  },
+  {
+    "id": "rock_musicals",
+    "term": "Rock Musicals",
+    "correct_answer": "Rock musicals use rock music as their primary musical idiom, representing a departure from the Broadway orchestral tradition. The first major example was Hair (Galt MacDermot, 1968) — anti-Vietnam War, counterculture, with actual rock band on stage. Followed by Jesus Christ Superstar (Lloyd Webber/Rice, 1971, through-sung), Godspell (Schwartz, 1971), Grease (1972), and later Rent (Larson, 1996), Spring Awakening (Duncan Sheik, 2006), and American Idiot (Green Day, 2010). Rock musicals emerged from the 1960s counterculture challenging Broadway's mainstream values. They often feature youth protagonists, political content, and reflect contemporary popular music styles."
+  },
+  {
+    "id": "follies",
+    "term": "Follies",
+    "correct_answer": "Follies (1971) is a musical by Stephen Sondheim (music and lyrics) and James Goldman (book), directed by Hal Prince with choreography by Michael Bennett. Former Ziegfeld Follies showgirls and their husbands reunite in a crumbling old theater about to be demolished. The show explores nostalgia, disillusionment, and the destruction of the past — structurally, the characters are haunted by 'follies' (ghosts of their younger selves, performed by other actors). It is one of the most ambitious concept musicals, with Boris Aronson's set design (a decaying theater) central to the meaning. Commercial failure, cult masterpiece. Set pieces like 'I'm Still Here,' 'Losing My Mind,' 'Broadway Baby.'"
+  },
+  {
+    "id": "sondheim_shows",
+    "term": "List 5 shows with music + lyrics by Sondheim (not Company or Sunday in the Park)",
+    "correct_answer": "Stephen Sondheim (1930-2021) wrote music AND lyrics for: A Funny Thing Happened on the Way to the Forum (1962), Anyone Can Whistle (1964), Follies (1971), A Little Night Music (1973), Pacific Overtures (1976), Sweeney Todd: The Demon Barber of Fleet Street (1979), Merrily We Roll Along (1981), Into the Woods (1987), Assassins (1990), Passion (1994), Road Show (2008). Note: for West Side Story and Gypsy he wrote lyrics only (music by Bernstein and Styne respectively). Any 5 from the list above (excluding Company and Sunday in the Park with George) is correct."
+  },
+  {
+    "id": "megamusical",
+    "term": "Megamusical",
+    "correct_answer": "The megamusical is a dominant Broadway form of the 1980s-1990s characterized by: spectacular physical production (huge sets, flying scenery, special effects); British origin and production; pop/rock-influenced through-composed scores; long runs; global touring productions; associated with producers Cameron Mackintosh and composers Andrew Lloyd Webber. Examples: Cats (1982), Phantom of the Opera (1988), Les Misérables (1987), Miss Saigon (1991). These shows were commercial enterprises designed for global reproduction. They contrasted with the American concept musical tradition of Sondheim/Prince and represented a more populist, spectacle-driven approach."
+  },
+  {
+    "id": "cameron_mackintosh",
+    "term": "Cameron Mackintosh",
+    "correct_answer": "Sir Cameron Mackintosh (born 1946) is a British theatrical producer who produced the major megamusicals of the 1980s-1990s: Cats (1981/1982 Broadway), Les Misérables (1985/1987 Broadway), The Phantom of the Opera (1986/1988 Broadway), and Miss Saigon (1989/1991 Broadway). He also produced Oliver! and other shows. His producing model created the global megamusical: a single production design reproduced identically in multiple cities worldwide, prioritizing consistency and spectacle. His partnership with Andrew Lloyd Webber's Really Useful Group defined an era of commercial Broadway."
+  },
+  {
+    "id": "touch_me_lyric",
+    "term": "\"touch me, it's so easy to leave me\"",
+    "correct_answer": "This lyric is from 'The Music of the Night' in The Phantom of the Opera (Andrew Lloyd Webber/Charles Hart, 1986/1988). The Phantom sings it to Christine as he reveals his underground lair and attempts to seduce her through music. The lyric reveals the Phantom's vulnerability and loneliness — he craves human touch but knows Christine could easily leave him. It is one of the most quoted lines from the show and exemplifies the Phantom's character: simultaneously threatening and pathetic, domineering and desperate. The megamusical's emotional power rests on moments like this."
+  },
+  {
+    "id": "music_of_the_night",
+    "term": "\"Music of the Night\"",
+    "correct_answer": "\"The Music of the Night\" is the central song from The Phantom of the Opera (Lloyd Webber/Hart, 1986). The Phantom takes Christine to his underground lair and sings about the power of music and darkness, attempting to seduce her into surrendering to his musical world. Musically: lush, romantic orchestration; slow seductive melody; word painting ('darkness,' 'night,' 'music'); builds to a climax when Christine faints. Key lyric: 'touch me, it's so easy to leave me.' The song defines the Phantom's character and the megamusical's emotional register. Cameron Mackintosh's production; directed by Hal Prince; Broadway's longest-running show (1988-2023)."
+  },
+  {
+    "id": "hal_prince_shows",
+    "term": "Name 5 shows directed by Hal Prince",
+    "correct_answer": "Hal Prince directed (among others): Cabaret (1966), Company (1970), Follies (1971), A Little Night Music (1973), Pacific Overtures (1976), Side by Side by Sondheim (1977), Sweeney Todd (1979), Evita (1979), Merrily We Roll Along (1981), The Phantom of the Opera (1988). He also directed revivals. Any 5 of these is correct. His directorial career is closely associated with Stephen Sondheim (multiple collaborations) and the concept musical. He was also a major producer: West Side Story, Fiddler on the Roof, and more."
+  },
+  {
+    "id": "lloyd_webber_shows",
+    "term": "List 5 Andrew Lloyd Webber musicals",
+    "correct_answer": "Andrew Lloyd Webber (born 1948) composed: Joseph and the Amazing Technicolor Dreamcoat (1968/1972), Jesus Christ Superstar (1971, lyrics Tim Rice), Evita (1978, lyrics Tim Rice), Cats (1981, based on T.S. Eliot poetry, lyrics Trevor Nunn/Richard Stilgoe), Starlight Express (1984), The Phantom of the Opera (1986, lyrics Charles Hart), Aspects of Love (1989), Sunset Boulevard (1993, lyrics Don Black/Christopher Hampton), Whistle Down the Wind (1996), The Beautiful Game (2000), The Woman in White (2004), Love Never Dies (2010). Any 5 is correct."
+  },
+  {
+    "id": "im_breaking_down",
+    "term": "\"I'm Breaking Down\"",
+    "correct_answer": "\"I'm Breaking Down\" is a comic patter song from Falsettos (William Finn, 1990), sung by Trina (Marvin's ex-wife) in her kitchen as she prepares for son Jason's bar mitzvah. She delivers a rapid-fire, neurotic catalog of her anxieties and grievances — the music speeds up as her psychological state deteriorates. The comedy comes from the contrast between the mundane domestic setting (cooking in the kitchen) and the emotional extremity she is expressing. Falsettos deals with AIDS, gay relationships, and Jewish identity — Trina represents the 'straight' world trying to cope with upheaval. William Finn's first full musical (combining March of the Falsettos and Falsettoland)."
+  },
+  {
+    "id": "stephen_schwartz",
+    "term": "Stephen Schwartz",
+    "correct_answer": "Stephen Schwartz (born 1948) is a composer-lyricist responsible for several major Broadway musicals: Godspell (1971, his first success), Pippin (1972), The Magic Show (1974), and Wicked (2003). He also wrote lyrics for animated films including Pocahontas (1995) and The Hunchback of Notre Dame (1996) for Alan Menken. Godspell used a pop/rock idiom for a Biblical story; Pippin used a medieval setting for contemporary themes about identity; Wicked became one of the highest-grossing musicals of all time. Schwartz's style ranges from folk-rock (Godspell) to pop-operatic (Wicked)."
+  },
+  {
+    "id": "la_cage_aux_folles",
+    "term": "La Cage aux Folles",
+    "correct_answer": "La Cage aux Folles (1983) is a Broadway musical with music and lyrics by Jerry Herman and book by Harvey Fierstein, based on the 1973 French play. It tells the story of Georges and Albin, a gay couple who run a drag nightclub (La Cage aux Folles) in Saint-Tropez, France. Their relationship is tested when Georges's son brings home a fiancée whose family is violently anti-gay. Albin performs in drag as 'Zaza.' The show was the first major Broadway musical with a gay couple as the central romantic protagonists. Songs include 'I Am What I Am' (Albin's declaration of gay identity) and 'The Best of Times.' Won 6 Tony Awards including Best Musical."
+  },
+  {
+    "id": "elphaba_glinda_queer",
+    "term": "List indications Elphaba and Glinda are a queer couple",
+    "correct_answer": "In Wicked (Schwartz, 2003), multiple elements suggest a queer reading of Elphaba and Glinda's relationship: (1) 'What Is This Feeling?' (Loathing) functions structurally like a love-hate song between two people with intense feelings for each other; (2) 'For Good' (their final duet) is explicitly about how each changed the other forever, in the language of profound intimate connection; (3) The love triangle with Fiyero positions Elphaba and Glinda as rivals for the same man, echoing classic lesbian narrative structures; (4) 'I'm Not That Girl' — Elphaba sings about not being the one chosen romantically, directed toward Glinda as much as Fiyero; (5) The original casting of Idina Menzel and Kristen Chenoweth — both have strong LGBTQ+ fan bases and the chemistry was explicitly discussed; (6) Glinda's decision to stay in Oz while Elphaba 'dies' can be read as a closeted woman remaining in the world while her true self (Elphaba) disappears."
+  },
+  {
+    "id": "in_the_heights",
+    "term": "In the Heights",
+    "correct_answer": "In the Heights (2008, revised 2021 film) is a musical by Lin-Manuel Miranda (music, lyrics) with book by Quiara Alegría Hudes. Set in the Washington Heights neighborhood of Manhattan — a predominantly Dominican-American community — it follows residents over a summer weekend as they dream of better lives and grapple with gentrification. The score incorporates salsa, merengue, hip-hop, and rap. It was Miranda's first Broadway show (before Hamilton). Themes include: immigrant identity, community, the American dream, cultural heritage. Won 4 Tony Awards in 2008 including Best Musical."
+  },
+  {
+    "id": "blunder_lyric",
+    "term": "\"Such a blunder sometimes it makes me wonder why I even bring the thunder\"",
+    "correct_answer": "This lyric is from 'What Is This Feeling?' (also known as 'Loathing') from Wicked (Stephen Schwartz, 2003). Galinda (Glinda) sings it about Elphaba, cataloging why she despises her. Significantly, the lyric contains a tritone interval ('blunder...wonder' spans a tritone), which is the 'devil's interval' (diabolus in musica). The same interval is used in 'Maria' from West Side Story to signal danger and yearning. In Wicked, the tritone here gives musical weight to what seems like a comic complaint — suggesting the relationship between Glinda and Elphaba is more complicated than simple loathing. The self-referential use of the tritone is a musical theater in-joke."
+  },
+  {
+    "id": "tritone",
+    "term": "Tritone",
+    "correct_answer": "A tritone is a musical interval spanning three whole tones — an augmented fourth or diminished fifth (e.g., C to F#). Historically known as the 'devil's interval' or diabolus in musica, it was considered dissonant and was avoided in medieval counterpoint. In musical theater: (1) Leonard Bernstein uses the tritone prominently in West Side Story — the name 'Maria' begins with a tritone leap (opening two notes of 'Ma-ri-a'), and the same interval appears in the prologue, signaling both Tony's yearning and the danger of their love; (2) In Wicked, the lyric 'such a blunder sometimes it makes me wonder why I even bring the thunder' contains a tritone interval. The tritone's historical association with tension and dissonance gives it expressive power in these contexts."
+  },
+  {
+    "id": "camp_campy",
+    "term": "Camp / Campy (with examples)",
+    "correct_answer": "Camp is an aesthetic sensibility characterized by exaggeration, theatricality, artifice, irony, excessive style, and a knowing embrace of bad taste or kitsch. In musical theater, camp involves performances that are stylized beyond naturalism, often with comic effect. It has strong associations with gay culture and drag performance. Susan Sontag's 1964 essay 'Notes on Camp' defined it. Examples from class: (1) Joel Grey's Emcee in Cabaret — grotesque, sexually ambiguous, exaggeratedly theatrical performance that makes horror entertaining; (2) 'If You Could See Her (The Gorilla Song)' from Cabaret — a campy love song with a gorilla used to make a point about anti-Semitism; (3) La Cage aux Folles — drag performance as central theatrical device; (4) 'All I Care About' from Chicago — the exaggerated presentation of Billy Flynn as a showman (Bob Fosse's ironic, theatrical staging)."
+  }
+]

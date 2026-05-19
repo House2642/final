@@ -1,0 +1,17 @@
+# Large video files — too big for GitHub
+MUSIC 150 FINAL/*.mov
+MUSIC 150 FINAL/*.MOV
+MUSIC 150 FINAL/*.mp4
+MUSIC 150 FINAL/*.MP4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# macOS
+.DS_Store
+
+# Audio output (generated at Docker build time)
+audio/
