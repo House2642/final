@@ -30,16 +30,12 @@
     </div>
 
     <div class="controls">
-      <button id="btn-random-song" class="btn-primary">&#9654; Random Song</button>
-      <select id="song-select">
-        <option value="">— Pick a specific song —</option>
-      </select>
+      <button id="btn-random-song" class="btn-primary">&#9654; Play Random Excerpt</button>
     </div>
 
     <div id="player-area" class="hidden">
       <div class="song-card">
-        <div class="song-badge" id="song-badge">Audio</div>
-        <h3 id="current-song-title">Song Title</h3>
+        <p class="excerpt-label">&#9654; Playing excerpt &mdash; identify what you hear</p>
         <audio id="audio-player" controls preload="none">
           <source id="audio-source" src="" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -83,6 +79,7 @@
       </form>
 
       <div id="result-listening" class="result-panel hidden">
+        <p id="revealed-song-title" class="revealed-title hidden"></p>
         <div class="score-row">
           <span class="score-label">Score:</span>
           <span class="score-value" id="score-listening">—</span>

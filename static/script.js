@@ -25,14 +25,6 @@ async function loadSongs() {
   const res = await fetch("/api/songs");
   allSongs = await res.json();
 
-  const sel = document.getElementById("song-select");
-  allSongs.forEach(s => {
-    const opt = document.createElement("option");
-    opt.value = s.id;
-    opt.textContent = `${s.title} — ${s.show}${s.is_video ? " [VIDEO]" : ""}`;
-    sel.appendChild(opt);
-  });
-
   const grid = document.getElementById("song-list-grid");
   allSongs.forEach(s => {
     const tile = document.createElement("div");
@@ -69,16 +61,12 @@ document.getElementById("btn-random-song").addEventListener("click", async () =>
   loadSong(song.id);
 });
 
-document.getElementById("song-select").addEventListener("change", e => {
-  if (e.target.value) loadSong(e.target.value);
-});
 
 function loadSong(id) {
   const song = allSongs.find(s => s.id === id);
   if (!song) return;
 
   currentSongId = id;
-  document.getElementById("current-song-title").textContent = song.title + " — " + song.show;
   document.getElementById("player-area").classList.remove("hidden");
   hideResult("listening");
   resetListeningForm();
@@ -92,13 +80,12 @@ function loadSong(id) {
   audioSource.type = "audio/mpeg";
   audioPlayer.load();
 
-  // Update select
-  document.getElementById("song-select").value = id;
 }
 
 function resetListeningForm() {
-  ["f-composer","f-lyricist","f-show","f-date","f-context","f-musical-features","f-visual-musical","f-significance"]
+  ["f-composer","f-lyricist","f-show","f-date","f-context","f-musical-features","f-significance"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
+  document.getElementById("revealed-song-title").classList.add("hidden");
 }
 
 // ── Part I grading ───────────────────────────────────────────────────────
@@ -135,6 +122,13 @@ document.getElementById("listening-form").addEventListener("submit", async e => 
 function showListeningResult(data) {
   const panel = document.getElementById("result-listening");
   panel.classList.remove("hidden");
+
+  // Now reveal the song identity
+  const song = allSongs.find(s => s.id === currentSongId);
+  if (song) {
+    document.getElementById("revealed-song-title").textContent = `"${song.title}" — ${song.show}`;
+    document.getElementById("revealed-song-title").classList.remove("hidden");
+  }
 
   const scoreEl = document.getElementById("score-listening");
   scoreEl.textContent = data.score ?? "?";
