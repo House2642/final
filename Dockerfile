@@ -16,21 +16,26 @@ COPY templates/ templates/
 COPY static/ static/
 COPY data/ data/
 
-# Copy audio files and convert WMA → MP3
-# The MUSIC 150 FINAL folder lives next to this Dockerfile in the repo root
-COPY ["MUSIC 150 FINAL/", "/app/source_audio/"]
+# Copy all media files (audio + video)
+COPY ["MUSIC 150 FINAL/", "/app/MUSIC 150 FINAL/"]
 
+# Convert WMA → MP3 for audio serving
 RUN mkdir -p /app/audio && \
-    # Convert all WMA files to MP3
-    for f in /app/source_audio/*.wma; do \
+    # Convert standard .wma files
+    for f in "/app/MUSIC 150 FINAL/"*.wma; do \
         [ -f "$f" ] || continue; \
         base="$(basename "$f" .wma)"; \
         ffmpeg -y -i "$f" -codec:a libmp3lame -qscale:a 2 "/app/audio/${base}.mp3" 2>/dev/null; \
     done && \
+    # Convert non-standard WMA files: "Name_wma" or "Name wma" (no dot extension)
+    for f in "/app/MUSIC 150 FINAL/"*_wma "/app/MUSIC 150 FINAL/"*" wma"; do \
+        [ -f "$f" ] || continue; \
+        base="$(basename "$f")"; \
+        name="${base%_wma}"; name="${name% wma}"; \
+        ffmpeg -y -i "$f" -codec:a libmp3lame -qscale:a 2 "/app/audio/${name}.mp3" 2>/dev/null; \
+    done && \
     # Copy existing MP3 files as-is
-    find /app/source_audio -maxdepth 1 -iname "*.mp3" -exec cp {} /app/audio/ \; && \
-    # Remove source audio to save space
-    rm -rf /app/source_audio
+    find "/app/MUSIC 150 FINAL" -maxdepth 1 -iname "*.mp3" -exec cp {} /app/audio/ \;
 
 EXPOSE 8080
 

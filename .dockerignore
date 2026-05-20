@@ -1,8 +1,4 @@
-# Exclude non-audio files from Docker build context
-MUSIC 150 FINAL/*.mov
-MUSIC 150 FINAL/*.MP4
-MUSIC 150 FINAL/*.mp4
-MUSIC 150 FINAL/*.MOV
+# Exclude non-media files from Docker build context
 MUSIC 150 FINAL/*.docx
 
 # General

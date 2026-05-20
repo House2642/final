@@ -175,6 +175,12 @@ audio {
   margin-top: 14px;
   filter: invert(0.85) hue-rotate(180deg);
 }
+video {
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 6px;
+  background: #000;
+}
 
 /* ── FORM ──────────────────────────────────────────────────────────── */
 .form-grid {

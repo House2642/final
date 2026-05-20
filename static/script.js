@@ -72,18 +72,35 @@ function loadSong(id) {
   resetListeningForm();
 
   const audioPlayer = document.getElementById("audio-player");
-  const audioSource = document.getElementById("audio-source");
+  const videoPlayer = document.getElementById("video-player");
+  const fieldAudio  = document.getElementById("field-audio");
+  const fieldVideo  = document.getElementById("field-video");
+  const label       = document.getElementById("excerpt-label");
 
-  // Server converts WMA to MP3, so always request as mp3
-  const encodedFile = encodeURIComponent(song.audio_file);
-  audioSource.src = `/audio/${encodedFile}`;
-  audioSource.type = "audio/mpeg";
-  audioPlayer.load();
+  if (song.is_video) {
+    audioPlayer.classList.add("hidden");
+    videoPlayer.classList.remove("hidden");
+    fieldAudio.classList.add("hidden");
+    fieldVideo.classList.remove("hidden");
+    label.textContent = "▶ Playing video excerpt — describe visual & musical elements";
+    const src = `/video/${encodeURIComponent(song.video_file)}`;
+    document.getElementById("video-source").src = src;
+    videoPlayer.load();
+  } else {
+    videoPlayer.classList.add("hidden");
+    audioPlayer.classList.remove("hidden");
+    fieldVideo.classList.add("hidden");
+    fieldAudio.classList.remove("hidden");
+    label.textContent = "▶ Playing excerpt — identify what you hear";
+    const src = `/audio/${encodeURIComponent(song.audio_file)}`;
+    document.getElementById("audio-source").src = src;
+    audioPlayer.load();
+  }
 
 }
 
 function resetListeningForm() {
-  ["f-composer","f-lyricist","f-show","f-date","f-context","f-musical-features","f-significance"]
+  ["f-composer","f-lyricist","f-show","f-date","f-context","f-musical-features","f-visual-musical","f-significance"]
     .forEach(id => { const el = document.getElementById(id); if (el) el.value = ""; });
   document.getElementById("revealed-song-title").classList.add("hidden");
 }
@@ -99,7 +116,9 @@ document.getElementById("listening-form").addEventListener("submit", async e => 
     show: document.getElementById("f-show").value,
     date: document.getElementById("f-date").value,
     context: document.getElementById("f-context").value,
-    musical_features: document.getElementById("f-musical-features").value,
+    musical_features: song.is_video
+      ? document.getElementById("f-visual-musical").value
+      : document.getElementById("f-musical-features").value,
     significance: document.getElementById("f-significance").value,
   };
 
