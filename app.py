@@ -41,7 +41,7 @@ def list_songs():
             "show": s["show"],
             "is_video": s.get("is_video", False),
             "audio_file": s.get("audio_file"),
-            "video_file": s.get("video_file"),
+            "video_url": s.get("video_url"),
         })
     return jsonify(songs)
 
@@ -59,7 +59,7 @@ def random_song():
         "show": s["show"],
         "is_video": s.get("is_video", False),
         "audio_file": s.get("audio_file"),
-        "video_file": s.get("video_file"),
+        "video_url": s.get("video_url"),
     })
 
 
@@ -74,7 +74,7 @@ def get_song(song_id):
         "show": song["show"],
         "is_video": song.get("is_video", False),
         "audio_file": song.get("audio_file"),
-        "video_file": song.get("video_file"),
+        "video_url": song.get("video_url"),
     })
 
 
@@ -250,13 +250,6 @@ def serve_audio(filename):
     elif filename.endswith(" wma"):
         filename = filename[:-4] + ".mp3"
     return send_from_directory(AUDIO_DIR, filename)
-
-
-VIDEO_DIR = os.path.join(os.path.dirname(__file__), "MUSIC 150 FINAL")
-
-@app.route("/video/<path:filename>")
-def serve_video(filename):
-    return send_from_directory(VIDEO_DIR, filename)
 
 
 if __name__ == "__main__":

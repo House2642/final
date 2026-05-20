@@ -1,4 +1,8 @@
-# Exclude non-media files from Docker build context
+# Exclude large video files — served via Google Drive
+MUSIC 150 FINAL/*.mov
+MUSIC 150 FINAL/*.MOV
+MUSIC 150 FINAL/*.mp4
+MUSIC 150 FINAL/*.MP4
 MUSIC 150 FINAL/*.docx
 
 # General

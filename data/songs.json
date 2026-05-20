@@ -474,7 +474,7 @@
     "audio_file": null,
     "is_video": true,
     "audio_format": null,
-    "video_file": "Money Video (Cabaret).MP4"
+    "video_url": "https://drive.google.com/file/d/1k03heDtIput4_YgBSYk6gAovfngky1R1/preview"
   },
   {
     "id": "singin_in_the_rain_video",
@@ -489,7 +489,7 @@
     "audio_file": null,
     "is_video": true,
     "audio_format": null,
-    "video_file": "Singin in the Rain (Video).mov"
+    "video_url": "https://drive.google.com/file/d/1x5HLlgoSj4l4S7nPSssEf2jpFHGTwqi_/preview"
   },
   {
     "id": "oldest_established_video",
@@ -504,7 +504,7 @@
     "audio_file": null,
     "is_video": true,
     "audio_format": null,
-    "video_file": "Oldest Established (Video).mov"
+    "video_url": "https://drive.google.com/file/d/1Mnx1K5xa7CMweuY2bSIqL8W3jEQ0feFh/preview"
   },
   {
     "id": "in_summer_video",

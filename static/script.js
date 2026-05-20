@@ -83,9 +83,7 @@ function loadSong(id) {
     fieldAudio.classList.add("hidden");
     fieldVideo.classList.remove("hidden");
     label.textContent = "▶ Playing video excerpt — describe visual & musical elements";
-    const src = `/video/${encodeURIComponent(song.video_file)}`;
-    document.getElementById("video-source").src = src;
-    videoPlayer.load();
+    videoPlayer.src = song.video_url || "";
   } else {
     videoPlayer.classList.add("hidden");
     audioPlayer.classList.remove("hidden");
