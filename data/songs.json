@@ -519,6 +519,7 @@
     "audio_file": null,
     "is_video": true,
     "audio_format": null,
-    "video_file": "In Summer (Video).mov"
+    "video_file": "In Summer (Video).mov",
+    "video_url": "https://drive.google.com/file/d/1NXVdDZv4wNwJpW1nH9-pcDLknjEjE4v_/preview"
   }
 ]
