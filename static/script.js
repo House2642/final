@@ -108,13 +108,14 @@ document.getElementById("listening-form").addEventListener("submit", async e => 
   e.preventDefault();
   if (!currentSongId) return;
 
+  const song = allSongs.find(s => s.id === currentSongId);
   const answers = {
     composer: document.getElementById("f-composer").value,
     lyricist: document.getElementById("f-lyricist").value,
     show: document.getElementById("f-show").value,
     date: document.getElementById("f-date").value,
     context: document.getElementById("f-context").value,
-    musical_features: song.is_video
+    musical_features: song && song.is_video
       ? document.getElementById("f-visual-musical").value
       : document.getElementById("f-musical-features").value,
     significance: document.getElementById("f-significance").value,
