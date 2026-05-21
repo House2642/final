@@ -39,27 +39,19 @@ def list_songs():
             "id": s["id"],
             "title": s["title"],
             "show": s["show"],
-            "is_video": s.get("is_video", False),
             "audio_file": s.get("audio_file"),
-            "video_url": s.get("video_url"),
         })
     return jsonify(songs)
 
 
 @app.route("/api/songs/random")
 def random_song():
-    exclude_videos = request.args.get("exclude_videos", "false").lower() == "true"
-    pool = [s for s in SONGS if not (exclude_videos and s.get("is_video"))]
-    if not pool:
-        return jsonify({"error": "No songs available"}), 404
-    s = random.choice(pool)
+    s = random.choice(SONGS)
     return jsonify({
         "id": s["id"],
         "title": s["title"],
         "show": s["show"],
-        "is_video": s.get("is_video", False),
         "audio_file": s.get("audio_file"),
-        "video_url": s.get("video_url"),
     })
 
 
@@ -72,9 +64,7 @@ def get_song(song_id):
         "id": song["id"],
         "title": song["title"],
         "show": song["show"],
-        "is_video": song.get("is_video", False),
         "audio_file": song.get("audio_file"),
-        "video_url": song.get("video_url"),
     })
 
 
@@ -102,10 +92,7 @@ def grade_listening():
     if not song:
         return jsonify({"error": "Song not found"}), 404
 
-    if song.get("is_video"):
-        feature_prompt = "For this VIDEO excerpt, the student should focus on the RELATIONSHIP BETWEEN VISUAL AND MUSICAL ELEMENTS — camera work, staging, animation, choreography, editing, and how visuals interact with and enhance the music."
-    else:
-        feature_prompt = "The student should describe striking musical features (form, type of music, style, word painting, quotation, poetic details, etc.) and the significance of the excerpt."
+    feature_prompt = "The student should describe striking musical features (form, type of music, style, word painting, quotation, poetic details, etc.) and the significance of the excerpt."
 
     prompt = f"""You are grading a music history exam for MUS 150/THEA 150 (Musical Theater History), Prof. Sheppard, Spring 2026.
 

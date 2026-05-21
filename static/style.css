@@ -175,14 +175,6 @@ audio {
   margin-top: 14px;
   filter: invert(0.85) hue-rotate(180deg);
 }
-iframe#video-player {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  margin-top: 14px;
-  border: none;
-  border-radius: 6px;
-  background: #000;
-}
 
 /* ── FORM ──────────────────────────────────────────────────────────── */
 .form-grid {
